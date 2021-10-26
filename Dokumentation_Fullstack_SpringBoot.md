@@ -113,7 +113,14 @@ Erläuterung Zeile für Zeile:
 
 ### ***Use Bootstrap for Project***
 
+> In der pom.xml muss nun auch eine Abhängigkeit für Bootstrap geschrieben werden, damit Bootstrap im Projekt verwendet werden kann. 
+![Screenshot](./Images/UseBootstrap/Screenshot_1.png)
+> Im index.html-File muss bootstrap als stylesheet nun eingebunden werden; Weiters wird im html-Tag noch ein xmlns-Attribut für thymeleaf eingebunden. Es ist schwer den Inder zu verstehen, aber wenn ich es richtig verstanden habe hat man damit die Möglichkeit, über dieses th Zugriff auf Daten über Thymeleaf zu bekommen.
+![Screenshot](./Images/UseBootstrap/Screenshot_2.png)
+> Es hat auf jeden Fall dann funktioniert, Bootstrap ist eingebunden und die Seite wurde auch gleich aktualisiert. 
+![Screenshot](./Images/UseBootstrap/Screenshot_3.png)
 
+### ***Code Data Access Layer***
 
 
 
