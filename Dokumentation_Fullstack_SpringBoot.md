@@ -222,6 +222,30 @@ Erläuterung Zeile für Zeile:
 
 
 
+### ***Code Users Listing Page***
+
+#### Damit die Benutzer verwaltet werden können, muss einiges implementiert werden.
+![Screenshot](./Images/CodeUsersListingPage/Screenshot_1.png)
+
+#### Neue Klasse UserService
+![Screenshot](./Images/CodeUsersListingPage/Screenshot_63.png)
+- Annotation Service
+- Annotation Autowired als Referenz zum UserRepository
+- Mit der Methode listAll() wird eine Liste zurückgegeben über die Methode findAll() des CRUD-Repo.
+
+#### Neues HTML-File users und neue Klasse UserController
+![Screenshot](./Images/CodeUsersListingPage/Screenshot_2.png)
+- **user.html**
+- Ein neues Template users.html zur Ausgabe der gespeicherten Benutzer über thymeleaf. Das geht, weil ein Objekt vom Typ Model vom UserController wird an das Template users.html übergeben wird. ( eine List mit allen Usern) 
+- **UserController**
+- Annotation Controller
+- Annotation Autowired als Referenz zu UserService
+- Wird im Browser "Manage Users" der index.html angeklickt, wird über GetMapping die Methode showUserList() ausgeführt, welche wiederum aus der UserService Klasse alle Benutzer als List holt. 
+- Die Benutzer werden dann als Model-Objekt der users.html zur Verfügung gestellt
+- users.html wird so im Browser angezeigt
+
+
+
 ## Aufgabe 3 : Spring Boot Fullstack Department-Management
 **Link zum Tutorial**  
 [Youtube - Spring Boot Tutorial | Full In-depth Course](https://www.youtube.com/watch?v=c3gKseNAs9w&ab_channel=DailyCodeBuffer)
