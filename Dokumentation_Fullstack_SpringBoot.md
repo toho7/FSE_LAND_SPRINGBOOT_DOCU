@@ -213,22 +213,13 @@ Erläuterung Zeile für Zeile:
 ![Screenshot](./Images/Code_Unit_Tests/Screenshot_14.png)
 - Über die Methode deleteByID() von der CRUD-Repo kann über die ID ein User aus der Datenbank gelöscht werden. 
 
-<br><br><br>
-
----
----
-
-
-
-
-
 ### ***Code Users Listing Page***
 
 #### Damit die Benutzer verwaltet werden können, muss einiges implementiert werden.
 ![Screenshot](./Images/CodeUsersListingPage/Screenshot_1.png)
 
 #### Neue Klasse UserService
-![Screenshot](./Images/CodeUsersListingPage/Screenshot_63.png)
+![Screenshot](./Images/CodeUsersListingPage/Screenshot_3.png)
 - Annotation Service
 - Annotation Autowired als Referenz zum UserRepository
 - Mit der Methode listAll() wird eine Liste zurückgegeben über die Methode findAll() des CRUD-Repo.
@@ -243,6 +234,14 @@ Erläuterung Zeile für Zeile:
 - Wird im Browser "Manage Users" der index.html angeklickt, wird über GetMapping die Methode showUserList() ausgeführt, welche wiederum aus der UserService Klasse alle Benutzer als List holt. 
 - Die Benutzer werden dann als Model-Objekt der users.html zur Verfügung gestellt
 - users.html wird so im Browser angezeigt
+
+
+###
+
+<br><br><br>
+
+---
+---
 
 
 
