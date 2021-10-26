@@ -17,7 +17,11 @@
 * HTML5 & Bootstrap
 * JUnit 5 & AssertJ
 
-### Create & Setup Project
+### UML
+
+![UML-Projekt1](./Images/UML_Projekt_Aufgabe2.png)
+
+### ***Create & Setup Project***
 
 1. Dependencies for:
    * Spring Web
@@ -28,6 +32,25 @@
    * Webjars für Bootstrap
 2. Create new database schema
 3. Configure Datasource in application.properties
+
+---
+> Neues Projekt anlegen
+![CreateNewProject1](./Images/CreateNewProject1.png)
+
+> Dependencies
+![CreateNewProject2](./Images/CreateNewProject2.png)
+- **Spring Boot DevTools**  
+  Schnelle Anwendungsneustarts, Live-Reload und Konfigurationen für eine verbesserte Entwicklungserfahrung
+- **SpringWeb**  
+  Erstellung von Webanwendungen, einschließlich RESTful, mit Spring MVC. Verwendet Apache Tomcat als standardmäßig eingebetteten Container
+- **Thymeleaf**  
+  Eine moderne serverseitige Java-Template-Engine für Web- und Standalone-Umgebungen. Ermöglicht die korrekte Darstellung von HTML in Browsern und als statische Prototypen. 
+- **Spring Data JPA**  
+  Persistieren von Daten in SQL-Speichern mit Java Persistences API unter Verwendung von Spring Data und Hibernate
+- **MySQL Driver**  
+  Stellt MySQL JDBC und R2DBC Driver bereit
+  
+- Mit Finish wird das Projekt erstellt
 
 
 ---
