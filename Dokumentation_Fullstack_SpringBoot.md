@@ -236,6 +236,29 @@ Erläuterung Zeile für Zeile:
 - users.html wird so im Browser angezeigt
 
 
+### ***Code Add User Function***
+
+#### UML
+![Screenshot](./Images/CodeAddUserFunction/Screenshot_1.png)
+
+#### Bearbeitung vom UserController
+![Screenshot](./Images/CodeAddUserFunction/Screenshot_2.png)
+- Neue GetMapping Referenz zum Erstellen der Methode showNewForm(), damit bei Klick auf add new User im index.html das Forumular für den neuen user angezeigt wird. 
+- diese User_form.html muss nun erstellt werden
+
+#### Erstellen Template user_form.html
+![Screenshot](./Images/CodeAddUserFunction/Screenshot_3.png)
+- Zum Anzeigen eines Formulars um neuen User zu speichern
+- im Form-Tag wird ein Objekt vom Typ "User" referenziert damit dieses neue Objekt (User) gespeichert werden kann. 
+- in den Input-Feldern muss über tymeleaf das Datenfeld aus dem User-Model eingetragen werden
+
+
+
+### ***Code Form Validate***
+
+####
+![Screenshot](./Images/CodeFormValidate/Screenshot_1.png)
+
 ###
 
 <br><br><br>
