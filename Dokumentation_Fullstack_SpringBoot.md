@@ -81,8 +81,25 @@ Erläuterung Zeile für Zeile:
 - Dadurch bleiben die Daten beim Neustart erhalten
 - SQL-Debugging in der Konsole
 
+### ***Code Home Page***
 
+> Schritte
+![Screenshot](./Images/Code_Home_Page/Screenshot_0.png)
+> Erstellen eines neuen Java-Files "Main-Controller" im package com.mycompany
+![Screenshot](./Images/Code_Home_Page/Screenshot_1.png)
+- Annotation Controller 
+- Annotation GetMapping um das Request zu handeln von der Homepage
+- showHomePage gibt den den view der index zurück
+> index.html
+![Screenshot](./Images/Code_Home_Page/Screenshot_2.png)
+> Die Application zum ersten Mal starten und testen
+![Screenshot](./Images/Code_Home_Page/Screenshot_3.png)
+> Ausgabe von logs auf der Konsole von Spring Boot
+![Screenshot](./Images/Code_Home_Page/Screenshot_4.png)
+> Testen im Browser
+![Screenshot](./Images/Code_Home_Page/Screenshot_5.png)
 
+### ***Configure IntelliJ IDEA for Spring Boot DevTools***
 
 ---
 
