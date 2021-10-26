@@ -186,15 +186,32 @@ Erläuterung Zeile für Zeile:
 ![Screenshot](./Images/Code_Unit_Tests/Screenshot_6.png)
 ![Screenshot](./Images/Code_Unit_Tests/Screenshot_7.png)
 ![Screenshot](./Images/Code_Unit_Tests/Screenshot_8.png)
+- Die Einträge in der Datenbank können dann auch über IntelliJ betrachtet werden
+  
 #### Methode testListAll
-![Screenshot](./Images/Code_Unit_Tests/Screenshot_.png)
-#### Methode testUpdate
-![Screenshot](./Images/Code_Unit_Tests/Screenshot_.png)
-#### Methode testGet
-![Screenshot](./Images/Code_Unit_Tests/Screenshot_.png)
-#### Methode testDelete
-![Screenshot](./Images/Code_Unit_Tests/Screenshot_.png)
+![Screenshot](./Images/Code_Unit_Tests/Screenshot_9.png)
+![Screenshot](./Images/Code_Unit_Tests/Screenshot_10.png)
+- Gibt eine Interable-Collection zurück
+- Dies übergibt einer neuen Instanz von Iterable
+- Mit einer Assertion wird überprüft ob die Collection größer als 0 ist.
+- Über ein for-each Schleife können dann die Einträge auf der Konsole ausgegeben werden
+- Dazu ergänzt man die User-Klasse noch um die toString Methode. 
 
+#### Methode testUpdate
+![Screenshot](./Images/Code_Unit_Tests/Screenshot_11.png)
+- über die Methode findById() von der CRUD-Repo wird über die ID eine Instanz von Optional zurückgegeben. Dies übergibt man einer neuen Instanz von Optional mit Typ User.  
+- Über die Methode get des Optional-User Objekts, wird einer neuen Instanz von User der gewünschte User übergeben.
+- über diese Instanz kann nun zB über die setPassword Methode einen neues Passwort gesetzt werden. 
+
+
+#### Methode testGet
+![Screenshot](./Images/Code_Unit_Tests/Screenshot_12.png)
+- Ähnlich wie die testUpdate Methode
+
+#### Methode testDelete
+![Screenshot](./Images/Code_Unit_Tests/Screenshot_13.png)
+![Screenshot](./Images/Code_Unit_Tests/Screenshot_14.png)
+- Über die Methode deleteByID() von der CRUD-Repo kann über die ID ein User aus der Datenbank gelöscht werden. 
 
 <br><br><br>
 
