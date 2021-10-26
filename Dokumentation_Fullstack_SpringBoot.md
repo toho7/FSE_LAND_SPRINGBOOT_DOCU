@@ -100,12 +100,33 @@ Erläuterung Zeile für Zeile:
 ![Screenshot](./Images/Code_Home_Page/Screenshot_5.png)
 
 ### ***Configure IntelliJ IDEA for Spring Boot DevTools***
-
+> Das Einstellen zum automatischen kompilieren war bei mir nicht verfügbar wie im Video angezeigt. 
+![Screenshot](./Images/Configure_IntelliJ_IDEA_for_SpringBootDevTools/Screenshot_1.png)
+> Nach langem Googlen gefunden in den Advanced Settings
+![Screenshot](./Images/Configure_IntelliJ_IDEA_for_SpringBootDevTools/Screenshot_2.png)
+> Weiters muss eingestellt werden: 
+![Screenshot](./Images/Configure_IntelliJ_IDEA_for_SpringBootDevTools/Screenshot_3.png)
+![Screenshot](./Images/Configure_IntelliJ_IDEA_for_SpringBootDevTools/Screenshot_4.png)
+![Screenshot](./Images/Configure_IntelliJ_IDEA_for_SpringBootDevTools/Screenshot_5.png)
+- Jetzt können zB Änderungen an der index.html vorgenommen werden und es wird automatisch kompilliert ohne Application abzubrechen und neu zu starten
 ---
+
+### ***Use Bootstrap for Project***
+
+
+
+
+
+
+
+
+
 
 ## Aufgabe 3 : Spring Boot Fullstack Department-Management
 **Link zum Tutorial**  
 [Youtube - Spring Boot Tutorial | Full In-depth Course](https://www.youtube.com/watch?v=c3gKseNAs9w&ab_channel=DailyCodeBuffer)
+
+
 
 ---
 ## Aufgabe 4 : Spring Data JPA Vertiefung
