@@ -52,7 +52,7 @@
   
 - Mit Finish wird das Projekt erstellt
 
-### ***Create & Setup Project***
+### ***Neue Data Source erstellen***
 
 > SQL-Server starten über XAMPP, Port 3306
 ![XAMPP](./Images/XAMPP.png)
@@ -69,6 +69,20 @@
 ![NeueDataSource_PHPMyAdmin2](./Images/NeueDataSource_PHPMyAdmin2.png)
 > Es wird dann automatisch mit dem usersdb Schema verbunden
 ![NeueDataSource](./Images/NeueDataSource3.png)
+
+### ***Konfigurieren der DataSource Properties***
+
+> Im File application.properties werden die Einstellungen für die aktuelle Datenbank geschrieben. 
+![Screenshot](./Images/Configure_DataSource_Properties/Screenshot_1.png)
+Erläuterung Zeile für Zeile:
+- Pfadangabe mySQL-Server mit Socket und DB-Name
+- Setzt den Benutzernamen
+- Hier wird dann Passwort gesetzt
+- Dadurch bleiben die Daten beim Neustart erhalten
+- SQL-Debugging in der Konsole
+
+
+
 
 ---
 
