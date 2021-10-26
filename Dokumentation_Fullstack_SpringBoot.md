@@ -133,7 +133,7 @@ Erläuterung Zeile für Zeile:
 #### Neues Package für User, neue User-Klasse
 ![Screenshot](./Images/Code_Data_Access_Layer/Screenshot_2.png)
 - Annotation Entity und Table, damit die Klasse als Tabelle in die Datenbank übertragen werden kann
-- Annotaionen Id und GeneratedValue wird ein Attribut als Primärschlüssel festgelegt. 
+- Annotationen Id und GeneratedValue wird ein Attribut als Primärschlüssel festgelegt. 
 - Annotation Column werden Eigenschaften für eine Spalte festgelegt.
 - Getter und Setter generieren lassen
 
@@ -145,15 +145,65 @@ Erläuterung Zeile für Zeile:
 
 #### Neues Interface UserRepository
 ![Screenshot](./Images/Code_Data_Access_Layer/Screenshot_5.png)
-- ANSONSTEN ABSOLUT KEINE CHANCE DEN INDER ZU VERSTEHEN, ZUM KOTZEN
+- Durch dieses UserRepository Interface, welches von CrudRepository erbt, können die CRUD-Funktionen (Create, Read, Update, Delete) an einem Modell angewendet werden. Weiters müssen die generischen Datentypen für die Entität und den Primärschlüssel angegeben werden
+- User = Datentyp der Model-Klasse User
+- Integer = Datentyp des Primärschlüssels der Klasse User
+- ALLES SELBER MÜHSAM ZUSAMMENGESUCHT WEIL ABSOLUT KEINE CHANCE WAR DEN INDER ZU VERSTEHEN, ZUM KOTZEN
+
+#### Hibernate (siehe Logeinträge von Spring Boot)
+![Screenshot](./Images/Code_Data_Access_Layer/Screenshot_6.png)
+- Hibernate-Framework wird in dem Projekt eingesetzt, um Objekte mit Attributen und Methoden in eine RDBS zu speichern und umgekehrt um eine Tabelle in ein Objekt zu übersetzen (Objektrelationale Abbildung). 
+- Die Anweisungen für den Datenbankzugriff wird nicht über SQL programmiert, sondern über Hibernate (Abhängigkeit von verwendetem SQL-Dialekt)
 
 
+### ***Code Unit Tests***
+
+#### Schritte
+![Screenshot](./Images/Code_Unit_Tests/Screenshot_1.png)
+
+#### UML
+![Screenshot](./Images/Code_Unit_Tests/Screenshot_2.png)
+
+#### Löschen des automatisch generierten MyWebApplicationTests.java-File und erstellen der neuen Klasse UserRepositoryTest
+![Screenshot](./Images/Code_Unit_Tests/Screenshot_3.png)
+
+#### Mit UserRepositoryTests kann nun überprüft werden, ob Interface UserRepository in Verbindung mit dem User-Modell und den CRUD-Methoden richtig zusammenspielt. 
+#### Aufbau und Annotationen
+![Screenshot](./Images/Code_Unit_Tests/Screenshot_4.png)
+- Annotation DataJpaTest um die Tests durchführen zu können
+- Annotation AutoConfigureTestDatabase um die Datenbank testen zu können
+- Annotation Rollback um die Daten zu behalten
+- Annotation Autowired um eine Referenz auf der User Repository zu haben.
+- Annotation Test um Test-Methoden zu schreiben
+
+#### Methode testAddNew
+![Screenshot](./Images/Code_Unit_Tests/Screenshot_5.png)
+- Erstellt eine neue Instanz von User
+- Über die Setter-Methoden werden die Daten des Users geschrieben
+- Einer neuen User-Instanz wird dieser User über die save-Methode vom implementierten CRUD-Repo übergeben. 
+- Über Assertions wird geprüft, ob der gespeicherte User nicht NULL ist und die ID größer als 0 ist. 
+- Danach kann die Methode ausgeführt bzw getestet werden
+![Screenshot](./Images/Code_Unit_Tests/Screenshot_6.png)
+![Screenshot](./Images/Code_Unit_Tests/Screenshot_7.png)
+![Screenshot](./Images/Code_Unit_Tests/Screenshot_8.png)
+#### Methode testListAll
+![Screenshot](./Images/Code_Unit_Tests/Screenshot_.png)
+#### Methode testUpdate
+![Screenshot](./Images/Code_Unit_Tests/Screenshot_.png)
+#### Methode testGet
+![Screenshot](./Images/Code_Unit_Tests/Screenshot_.png)
+#### Methode testDelete
+![Screenshot](./Images/Code_Unit_Tests/Screenshot_.png)
 
 
 <br><br><br>
 
 ---
 ---
+
+
+
+
 
 ## Aufgabe 3 : Spring Boot Fullstack Department-Management
 **Link zum Tutorial**  
