@@ -52,6 +52,23 @@
   
 - Mit Finish wird das Projekt erstellt
 
+### ***Create & Setup Project***
+
+> SQL-Server starten über XAMPP, Port 3306
+![XAMPP](./Images/XAMPP.png)
+> Neue Data-Source hinzufügen
+![NeueDataSource](./Images/NeueDataSource.png)
+![NeueDataSource2](./Images/NeueDataSource2.png)
+> Fehler beim Testen der Verbindung
+![NeueDataSourceFehler](./Images/NeueDataSourceFehler.png)
+- Ewig lange Fehlersuche weil man den Youtube-Typ einfach nicht versteht :/
+- Schließlich hab ich über PhpmyAdmin eine neue Datenbank usersdb erstellt und den user ohne passwort verbunden. 
+> Neue Datenbank phpMyAdmin
+![NeueDataSource_PHPMyAdmin](./Images/NeueDataSource_PHPMyAdmin.png)
+> Mit Datenbank über IntelliJ verbinden
+![NeueDataSource_PHPMyAdmin2](./Images/NeueDataSource_PHPMyAdmin2.png)
+> Es wird dann automatisch mit dem usersdb Schema verbunden
+![NeueDataSource](./Images/NeueDataSource3.png)
 
 ---
 
