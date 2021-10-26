@@ -19,7 +19,7 @@
 
 ### UML
 
-![UML-Projekt1](./Images/UML_Projekt_Aufgabe2.png)
+![UML-Projekt1](./Images/UML/UML_Projekt_Aufgabe2.png)
 
 ### ***Create & Setup Project***
 
@@ -34,11 +34,11 @@
 3. Configure Datasource in application.properties
 
 ---
-> Neues Projekt anlegen
-![CreateNewProject1](./Images/CreateNewProject1.png)
+#### Neues Projekt anlegen
+![CreateNewProject1](./Images/Create_And_Setup_Project/CreateNewProject1.png)
 
-> Dependencies
-![CreateNewProject2](./Images/CreateNewProject2.png)
+#### Dependencies
+![CreateNewProject1](./Images/Create_And_Setup_Project/CreateNewProject2.png)
 - **Spring Boot DevTools**  
   Schnelle Anwendungsneustarts, Live-Reload und Konfigurationen für eine verbesserte Entwicklungserfahrung
 - **SpringWeb**  
@@ -52,27 +52,27 @@
   
 - Mit Finish wird das Projekt erstellt
 
-### ***Neue Data Source erstellen***
+### ***Create new DataSource***
 
-> SQL-Server starten über XAMPP, Port 3306
-![XAMPP](./Images/XAMPP.png)
-> Neue Data-Source hinzufügen
+#### SQL-Server starten über XAMPP, Port 3306
+![XAMPP](./Images/Create_New_DataSource/XAMPP.png)
+#### Neue Data-Source hinzufügen
 ![NeueDataSource](./Images/NeueDataSource.png)
-![NeueDataSource2](./Images/NeueDataSource2.png)
-> Fehler beim Testen der Verbindung
-![NeueDataSourceFehler](./Images/NeueDataSourceFehler.png)
+![NeueDataSource2](./Images/Create_New_DataSource/NeueDataSource2.png)
+#### Fehler beim Testen der Verbindung
+![NeueDataSourceFehler](./Images/Create_New_DataSource/NeueDataSourceFehler.png)
 - Ewig lange Fehlersuche weil man den Youtube-Typ einfach nicht versteht :/
 - Schließlich hab ich über PhpmyAdmin eine neue Datenbank usersdb erstellt und den user ohne passwort verbunden. 
-> Neue Datenbank phpMyAdmin
-![NeueDataSource_PHPMyAdmin](./Images/NeueDataSource_PHPMyAdmin.png)
-> Mit Datenbank über IntelliJ verbinden
-![NeueDataSource_PHPMyAdmin2](./Images/NeueDataSource_PHPMyAdmin2.png)
-> Es wird dann automatisch mit dem usersdb Schema verbunden
-![NeueDataSource](./Images/NeueDataSource3.png)
+#### Neue Datenbank phpMyAdmin
+![NeueDataSource_PHPMyAdmin](./Images/Create_New_DataSource/NeueDataSource_PHPMyAdmin.png)
+#### Mit Datenbank über IntelliJ verbinden
+![NeueDataSource_PHPMyAdmin2](./Images/Create_New_DataSource/NeueDataSource_PHPMyAdmin2.png)
+#### Es wird dann automatisch mit dem usersdb Schema verbunden
+![NeueDataSource](./Images/Create_New_DataSource/NeueDataSource3.png)
 
 ### ***Konfigurieren der DataSource Properties***
 
-> Im File application.properties werden die Einstellungen für die aktuelle Datenbank geschrieben. 
+#### Im File application.properties werden die Einstellungen für die aktuelle Datenbank geschrieben. 
 ![Screenshot](./Images/Configure_DataSource_Properties/Screenshot_1.png)
 Erläuterung Zeile für Zeile:
 - Pfadangabe mySQL-Server mit Socket und DB-Name
@@ -83,28 +83,28 @@ Erläuterung Zeile für Zeile:
 
 ### ***Code Home Page***
 
-> Schritte
+#### Schritte
 ![Screenshot](./Images/Code_Home_Page/Screenshot_0.png)
-> Erstellen eines neuen Java-Files "Main-Controller" im package com.mycompany
+#### Erstellen eines neuen Java-Files "Main-Controller" im package com.mycompany
 ![Screenshot](./Images/Code_Home_Page/Screenshot_1.png)
 - Annotation Controller 
 - Annotation GetMapping um das Request zu handeln von der Homepage
 - showHomePage gibt den den view der index zurück
-> index.html
+#### index.html
 ![Screenshot](./Images/Code_Home_Page/Screenshot_2.png)
-> Die Application zum ersten Mal starten und testen
+#### Die Application zum ersten Mal starten und testen
 ![Screenshot](./Images/Code_Home_Page/Screenshot_3.png)
-> Ausgabe von logs auf der Konsole von Spring Boot
+#### Ausgabe von logs auf der Konsole von Spring Boot
 ![Screenshot](./Images/Code_Home_Page/Screenshot_4.png)
-> Testen im Browser
+#### Testen im Browser
 ![Screenshot](./Images/Code_Home_Page/Screenshot_5.png)
 
 ### ***Configure IntelliJ IDEA for Spring Boot DevTools***
-> Das Einstellen zum automatischen kompilieren war bei mir nicht verfügbar wie im Video angezeigt. 
+#### Das Einstellen zum automatischen kompilieren war bei mir nicht verfügbar wie im Video angezeigt. 
 ![Screenshot](./Images/Configure_IntelliJ_IDEA_for_SpringBootDevTools/Screenshot_1.png)
-> Nach langem Googlen gefunden in den Advanced Settings
+#### Nach langem Googlen gefunden in den Advanced Settings
 ![Screenshot](./Images/Configure_IntelliJ_IDEA_for_SpringBootDevTools/Screenshot_2.png)
-> Weiters muss eingestellt werden: 
+#### Weiters muss eingestellt werden: 
 ![Screenshot](./Images/Configure_IntelliJ_IDEA_for_SpringBootDevTools/Screenshot_3.png)
 ![Screenshot](./Images/Configure_IntelliJ_IDEA_for_SpringBootDevTools/Screenshot_4.png)
 ![Screenshot](./Images/Configure_IntelliJ_IDEA_for_SpringBootDevTools/Screenshot_5.png)
@@ -113,14 +113,17 @@ Erläuterung Zeile für Zeile:
 
 ### ***Use Bootstrap for Project***
 
-> In der pom.xml muss nun auch eine Abhängigkeit für Bootstrap geschrieben werden, damit Bootstrap im Projekt verwendet werden kann. 
+#### In der pom.xml muss nun auch eine Abhängigkeit für Bootstrap geschrieben werden, damit Bootstrap im Projekt verwendet werden kann. 
 ![Screenshot](./Images/UseBootstrap/Screenshot_1.png)
-> Im index.html-File muss bootstrap als stylesheet nun eingebunden werden; Weiters wird im html-Tag noch ein xmlns-Attribut für thymeleaf eingebunden. Es ist schwer den Inder zu verstehen, aber wenn ich es richtig verstanden habe hat man damit die Möglichkeit, über dieses th Zugriff auf Daten über Thymeleaf zu bekommen.
+#### Im index.html-File muss bootstrap als stylesheet nun eingebunden werden; Weiters wird im html-Tag noch ein xmlns-Attribut für thymeleaf eingebunden. Es ist schwer den Inder zu verstehen, aber wenn ich es richtig verstanden habe hat man damit die Möglichkeit, über dieses th Zugriff auf Daten über Thymeleaf zu bekommen.
 ![Screenshot](./Images/UseBootstrap/Screenshot_2.png)
-> Es hat auf jeden Fall dann funktioniert, Bootstrap ist eingebunden und die Seite wurde auch gleich aktualisiert. 
+#### Es hat auf jeden Fall dann funktioniert, Bootstrap ist eingebunden und die Seite wurde auch gleich aktualisiert. 
 ![Screenshot](./Images/UseBootstrap/Screenshot_3.png)
 
 ### ***Code Data Access Layer***
+
+#### Schritte
+
 
 
 
