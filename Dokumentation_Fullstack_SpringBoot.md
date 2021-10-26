@@ -57,7 +57,7 @@
 #### SQL-Server starten über XAMPP, Port 3306
 ![XAMPP](./Images/Create_New_DataSource/XAMPP.png)
 #### Neue Data-Source hinzufügen
-![NeueDataSource](./Images/NeueDataSource.png)
+![NeueDataSource](./Images/Create_New_DataSource/NeueDataSource.png)
 ![NeueDataSource2](./Images/Create_New_DataSource/NeueDataSource2.png)
 #### Fehler beim Testen der Verbindung
 ![NeueDataSourceFehler](./Images/Create_New_DataSource/NeueDataSourceFehler.png)
@@ -122,15 +122,38 @@ Erläuterung Zeile für Zeile:
 
 ### ***Code Data Access Layer***
 
-#### Schritte
+1. Code user entity class that maps to users table in database
+2. Code UserRepository interface to use APIs of Spring Data JPA
+3. Run the application to let Hibernate create the table
+
+![Screenshot](./Images/Code_Data_Access_Layer/Screenshot_1.png)
+- Erstellen der User-Class 
+- Erstellen des UserRepository Interface welches das CrudRepository Interface implementiert
+
+#### Neues Package für User, neue User-Klasse
+![Screenshot](./Images/Code_Data_Access_Layer/Screenshot_2.png)
+- Annotation Entity und Table, damit die Klasse als Tabelle in die Datenbank übertragen werden kann
+- Annotaionen Id und GeneratedValue wird ein Attribut als Primärschlüssel festgelegt. 
+- Annotation Column werden Eigenschaften für eine Spalte festgelegt.
+- Getter und Setter generieren lassen
+
+#### Die Tabelle users wurde inszwischen automatisch erstellt von JavaSprings
+![Screenshot](./Images/Code_Data_Access_Layer/Screenshot_3.png)
+
+#### Dis ist auch im IntelliJ zu erkennen
+![Screenshot](./Images/Code_Data_Access_Layer/Screenshot_4.png)
+
+#### Neues Interface UserRepository
+![Screenshot](./Images/Code_Data_Access_Layer/Screenshot_5.png)
+- ANSONSTEN ABSOLUT KEINE CHANCE DEN INDER ZU VERSTEHEN, ZUM KOTZEN
 
 
 
 
+<br><br><br>
 
-
-
-
+---
+---
 
 ## Aufgabe 3 : Spring Boot Fullstack Department-Management
 **Link zum Tutorial**  
