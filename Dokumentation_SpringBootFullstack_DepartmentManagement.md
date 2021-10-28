@@ -7,4 +7,22 @@
 ---
 ---
 
-### 
+### ***Spring Initializr***
+
+#### Initialisieren des Projekts mit start.spring.io
+![Screenshot](./Images/AUFGABE_3/SpringInitializr/Screenshot_1.png)
+- Hier kann man wie im IntelliJ direkt, ein Projekt mit SpringBoot initialisieren mit allen benötigten Abhängigkeiten
+![Screenshot](./Images/AUFGABE_3/SpringInitializr/Screenshot_2.png)
+- Geht man auf Explore, kann man durch eine Vorschau sehen, was generiert werden würde
+![Screenshot](./Images/AUFGABE_3/SpringInitializr/Screenshot_3.png)
+- Nun kann das Projekt generieren, und auch mit dem Share-Button einen Link teilen, der die Einstellungen zu diesem Projekt enthält
+
+### ***Springboot IDE´s (IntelliJ IDEA, STS, VSCode,...)***
+
+#### Laden des Projekts mit IntelliJ
+![Screenshot](./Images/AUFGABE_3/SpringbootIDEs/Screenshot_1.png)
+- Nach dem Generieren des Projektes mit start.spring.io, kann man die Datei entpacken und das gesamte Projekt in das gewünschte Verzeichnis verschieben
+- Anschließend öffnet man in IntelliJ die pom.xml-Datei und das Projekt wird geladen. 
+
+### ***Springboot Starters***
+
