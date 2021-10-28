@@ -80,5 +80,12 @@
 
 ### ***Architecture & Example***
 
-#### 
+#### Hier wird gezeigt, wie die kommende Aufgabe aufgebaut wird
 ![Screenshot](./Images/AUFGABE_3/Architecture&Example/Screenshot_1.png)
+![Screenshot](./Images/AUFGABE_3/Architecture&Example/Screenshot_1.png)
+- Die REST API
+- Service Layer für die gesamte Buisness Logik
+- Data Access / Repository Layer für die Interaktion mit der Datenbank
+- Database ( zuerst mit H2, dann mit MySQL)
+
+
