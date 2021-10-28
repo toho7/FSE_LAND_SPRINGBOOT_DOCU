@@ -269,6 +269,33 @@ Erläuterung Zeile für Zeile:
 ![Screenshot](./Images/CodeFormValidate/Screenshot_5.png)
 
 
+### ***Code Edit/Update User Function***
+
+#### UML
+![Screenshot](./Images/CodeEdit_UpdateUserFunction/Screenshot_1.png)
+
+#### Update UserService-Class, User get-Methode
+![Screenshot](./Images/CodeEdit_UpdateUserFunction/Screenshot_2.png)
+- Mit der findById-Methode von CRUD-Repo übergibt man ein Optional-Objekt, welches überprüft werden muss ob es vorhanden ist. Wenn ja wird es zurückgegeben, wenn nein wird eine neue Exception geschmissen. 
+
+#### UserController erweitern um User zu Editieren
+![Screenshot](./Images/CodeEdit_UpdateUserFunction/Screenshot_3.png)
+- im UserController wird eine Neue Methode showEditForm erstellt
+- Hier wird über GetMapping eine Variable als ID übergeben mittels der Annotation PathVariable. 
+- Weiters wird die get-Methode von UserService aufgefangen falls die ID nicht gefunden wird
+- Eine weitere Änderung wurde vorgenommen bez. dem PageTitle. Dieser wird nun in der Methode showEditForm und auch bei der showNewForm-Methode der ID entsprechend angezeigt.
+
+#### Users.html und User_Form.html bearbeiten
+![Screenshot](./Images/CodeEdit_UpdateUserFunction/Screenshot_4.png) 
+- Für was das neue input-Tag ist, hab ich leider nach dem 5. Mal anhören nicht verstanden von dem Inder-Englisch. 
+- Enabled wird nun auch angezeigt auf der Users.html
+#### Test User Editieren im Browser
+![Screenshot](./Images/CodeEdit_UpdateUserFunction/Screenshot_5.png)
+![Screenshot](./Images/CodeEdit_UpdateUserFunction/Screenshot_6.png)
+
+### Code Delete User Function 
+![Screenshot](./Images/CodeDeleteUserFunction/Screenshot_.png)
+
 
 ###
 
