@@ -47,13 +47,24 @@
 ---
 
 #### Spring erlaubt uns alle voreingestellten Properties zu ändern, wie zB der Standard-Port 8080 für Tomcat
-![Screenshot](./Images/AUFGABE_3/CreatingSimpleAPI/Screenshot_.png)
+![Screenshot](./Images/AUFGABE_3/CreatingSimpleAPI/Screenshot_2.png)
+![Screenshot](./Images/AUFGABE_3/CreatingSimpleAPI/Screenshot_3.png)
 
 ---
 ---
 
 ### ***Running Springboot App***
 
-####
-![Screenshot](./Images/AUFGABE_3/RunningSpringbootApp/Screenshot_.png)
+#### Andere Annotation für RequestMapping, Starten der Application über das Terminal
+![Screenshot](./Images/AUFGABE_3/RunningSpringbootApp/Screenshot_1.png)
+- @GetMapping inkludiert bereits RequestMapping
+- Über das Terminal kann der Run Befehl ausgeführt werden, mit Strg+C wird abgebrochen
 
+---
+---
+
+### ***Spring Boot DevTools***
+
+####
+
+![Screenshot](./Images/AUFGABE_3/SpringBootDevTools/Screenshot_.png)
