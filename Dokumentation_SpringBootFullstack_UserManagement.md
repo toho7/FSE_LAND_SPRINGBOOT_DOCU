@@ -294,8 +294,20 @@ Erläuterung Zeile für Zeile:
 ![Screenshot](./Images/CodeEdit_UpdateUserFunction/Screenshot_6.png)
 
 ### Code Delete User Function 
-![Screenshot](./Images/CodeDeleteUserFunction/Screenshot_.png)
 
+#### UML
+![Screenshot](./Images/CodeDeleteUserFunction/Screenshot_1.png)
+
+#### UserService und Interface UserRepository bearbeiten
+![Screenshot](./Images/CodeDeleteUserFunction/Screenshot_2.png)
+- Die Methode countByID liefert die Summe aller Datensätze. Diese Methode ist bereits in der Klasse JPA ausimplementiert und muss im Interface nur mit dem richtigen Methodenkopf geschrieben werden um sie zu verwenden. 
+
+#### UserController bearbeiten
+![Screenshot](./Images/CodeDeleteUserFunction/Screenshot_3.png)
+- die deleteUser-Methode funktioniert ähnlich wie die editUser
+
+#### Delete User Test im Browser
+![Screenshot](./Images/CodeDeleteUserFunction/Screenshot_4.png)
 
 ###
 
