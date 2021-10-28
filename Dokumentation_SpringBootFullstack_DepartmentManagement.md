@@ -26,3 +26,12 @@
 
 ### ***Springboot Starters***
 
+#### Dependencies in den Starter-Dependencies
+![Screenshot](./Images/AUFGABE_3/SpringbootStarters/Screenshot_1.png)
+- die über start.spring.io ausgewählten Starter-Dependencies, enthalten auch jede Menge Abhängigkeiten die man dann benutzen kann
+
+### ***Creating Simple API***
+
+#### 
+![Screenshot](./Images/AUFGABE_3/CreatingSimpleAPI/Screenshot_1.png)
+
