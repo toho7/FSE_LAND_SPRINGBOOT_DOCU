@@ -65,6 +65,20 @@
 
 ### ***Spring Boot DevTools***
 
-####
+#### Neue Abhängigkeit, damit jede Änderung sofort übernommen wird, und die App nicht neu gestartet werden muss
+![Screenshot](./Images/AUFGABE_3/SpringBootDevTools/Screenshot_1.png)
+- Dependency kann über start.spring.io ausgewählt werden, und mit EXPLORE kann dann der erstellte Code kopiert und in das Projekt in IntelliJ in der pom.xml übernommen werden. Maven aktualisieren und die neue Abhängigkeit wurde übernommen
 
-![Screenshot](./Images/AUFGABE_3/SpringBootDevTools/Screenshot_.png)
+#### Zusätzliche notwendige Einstellung in IntelliJ
+![Screenshot](./Images/AUFGABE_3/SpringBootDevTools/Screenshot_2.png)
+![Screenshot](./Images/AUFGABE_3/SpringBootDevTools/Screenshot_3.png)
+![Screenshot](./Images/AUFGABE_3/SpringBootDevTools/Screenshot_4.png)
+- Nun muss die App nicht immer wieder neu gestarten werden, wenn Änderungen vorgenommen werden
+
+---
+---
+
+### ***Architecture & Example***
+
+#### 
+![Screenshot](./Images/AUFGABE_3/Architecture&Example/Screenshot_1.png)
