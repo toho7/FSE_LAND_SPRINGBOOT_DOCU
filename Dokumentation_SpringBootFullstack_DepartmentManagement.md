@@ -17,6 +17,9 @@
 ![Screenshot](./Images/AUFGABE_3/SpringInitializr/Screenshot_3.png)
 - Nun kann das Projekt generieren, und auch mit dem Share-Button einen Link teilen, der die Einstellungen zu diesem Projekt enthält
 
+---
+---
+
 ### ***Springboot IDE´s (IntelliJ IDEA, STS, VSCode,...)***
 
 #### Laden des Projekts mit IntelliJ
@@ -24,14 +27,33 @@
 - Nach dem Generieren des Projektes mit start.spring.io, kann man die Datei entpacken und das gesamte Projekt in das gewünschte Verzeichnis verschieben
 - Anschließend öffnet man in IntelliJ die pom.xml-Datei und das Projekt wird geladen. 
 
+---
+---
+
 ### ***Springboot Starters***
 
 #### Dependencies in den Starter-Dependencies
 ![Screenshot](./Images/AUFGABE_3/SpringbootStarters/Screenshot_1.png)
 - die über start.spring.io ausgewählten Starter-Dependencies, enthalten auch jede Menge Abhängigkeiten die man dann benutzen kann
 
+---
+---
+
 ### ***Creating Simple API***
 
-#### 
+#### Neues Package, neuer Controller
 ![Screenshot](./Images/AUFGABE_3/CreatingSimpleAPI/Screenshot_1.png)
+- Die Programmierschnittstelle REST-API nutzt HTTP-Anfragen, um per PUT, GET, POST und DELETE auf Informationen zuzugreifen. Da REST das Verbinden mit Cloud-Diensten erlaubt und eine Interaktion ermöglicht, ist sie meist die erste Wahl. So sind REST-APIs zum Beispiel für Twitter, Amazon und Google im ständigen Einsatz
+---
+
+#### Spring erlaubt uns alle voreingestellten Properties zu ändern, wie zB der Standard-Port 8080 für Tomcat
+![Screenshot](./Images/AUFGABE_3/CreatingSimpleAPI/Screenshot_.png)
+
+---
+---
+
+### ***Running Springboot App***
+
+####
+![Screenshot](./Images/AUFGABE_3/RunningSpringbootApp/Screenshot_.png)
 
