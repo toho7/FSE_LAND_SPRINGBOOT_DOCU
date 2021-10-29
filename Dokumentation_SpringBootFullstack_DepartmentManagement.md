@@ -200,10 +200,17 @@
 ---
 ---
 
-### ******
+### ***Updating Data***
 
-####
-![Screenshot](./Images/AUFGABE_3//Screenshot_.png)
+#### Neue Methode zum Updaten eines Departments mit @PutMapping
+![Screenshot](./Images/AUFGABE_3/UpdatingData/Screenshot_1.png)
+- Mit if-Abfragen wird überprüft, welche Felder des Datenfelders geändert werden wollen. Ergibt eine Abfrage 0 bzw nichts (also kein Update), wird es übersprungen
+- Zum Schluss wird das gespeicherte Department (CRUD REPO) zurückgegeben. 
+
+#### Testen mit Insomnia
+![Screenshot](./Images/AUFGABE_3/UpdatingData/Screenshot_2.png)
+![Screenshot](./Images/AUFGABE_3/UpdatingData/Screenshot_3.png)
+- Wie programmiert, wird nur geändert was mit JSON gesendet wird, der Rest wird übersprungen
 
 ---
 ---
