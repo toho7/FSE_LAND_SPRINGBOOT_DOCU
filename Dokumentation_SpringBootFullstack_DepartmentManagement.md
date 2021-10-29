@@ -88,4 +88,23 @@
 - Data Access / Repository Layer für die Interaktion mit der Datenbank
 - Database ( zuerst mit H2, dann mit MySQL)
 
+--- 
+---
+
+### ***Adding Dependency H2 & JPA***
+
+#### Copy Paste von spring JPA starter in die pom.xml
+![Screenshot](./Images/AUFGABE_3/AddingDependencyH2&JPA/Screenshot_1.png)
+- auf der start.spring.io kann das Dependency wieder ausgewählt, mit Explore betrachtet und dann kopiert und in die pom.xml des Intellij Projektes eingefügt werden. 
+
+#### Konfigurieren der H2-Database
+![Screenshot](./Images/AUFGABE_3/AddingDependencyH2&JPA/Screenshot_2.png)
+
+---
+---
+
+### Creating Springboot Components
+
+####
+![Screenshot](./Images/AUFGABE_3/CreatingSpringbootComponents/Screenshot_2.png)
 
