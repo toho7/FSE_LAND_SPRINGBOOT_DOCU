@@ -103,7 +103,7 @@
 ---
 ---
 
-### Creating Springboot Components
+### ***Creating Springboot Components***
 
 #### Neue Packages, erste Entity Department
 ![Screenshot](./Images/AUFGABE_3/CreatingSpringbootComponents/Screenshot_1.png)
@@ -126,11 +126,96 @@
 ---
 ---
 
-### Department Save API
+### ***Department Save API***
 
-#### 
-![Screenshot](./Images/AUFGABE_3/DepartmentSaveAPI/Screenshot_.png)
--  
+#### Herstellung der Implementierungen zum Speichern
+![Screenshot](./Images/AUFGABE_3/DepartmentSaveAPI/Screenshot_1.png)
+- @Autowired verbindet das Objekt mit dem Spring-Container
+- @RequestBody erzeugt aus dem JSON-Objekt ein Objekt vom Typ Department
+- Entkopplung mit den Implementierungen
+
+---
+---
+
+### ******
+
+####
+![Screenshot](./Images/AUFGABE_3//Screenshot_.png)
+
+---
+---
+
+### ******
+
+####
+![Screenshot](./Images/AUFGABE_3//Screenshot_.png)
+
+---
+---
+
+### ******
+
+####
+![Screenshot](./Images/AUFGABE_3//Screenshot_.png)
+
+---
+---
+
+### ******
+
+####
+![Screenshot](./Images/AUFGABE_3//Screenshot_.png)
+
+---
+---
+
+### ******
+
+####
+![Screenshot](./Images/AUFGABE_3//Screenshot_.png)
+
+---
+---
+
+### ******
+
+####
+![Screenshot](./Images/AUFGABE_3//Screenshot_.png)
+
+---
+---
+
+### ******
+
+####
+![Screenshot](./Images/AUFGABE_3//Screenshot_.png)
+
+---
+---
+
+### ******
+
+####
+![Screenshot](./Images/AUFGABE_3//Screenshot_.png)
+
+---
+---
+
+### ******
+
+####
+![Screenshot](./Images/AUFGABE_3//Screenshot_.png)
+
+---
+---
+
+### ******
+
+####
+![Screenshot](./Images/AUFGABE_3//Screenshot_.png)
+
+---
+---
 
 
 
