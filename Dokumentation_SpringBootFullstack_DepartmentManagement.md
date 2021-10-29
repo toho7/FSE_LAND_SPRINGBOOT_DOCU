@@ -175,10 +175,14 @@
 ---
 ---
 
-### ******
+### ***Fetching Data By ID***
 
-####
-![Screenshot](./Images/AUFGABE_3//Screenshot_.png)
+#### Neue Methode mit GetMapping für die ID
+![Screenshot](./Images/AUFGABE_3/FetchingDataByID/Screenshot_1.png)
+
+#### Daten wurden wieder automatisch gelöscht (H2), 2 neue eingegeben; Durch Get-Request können jetzt sowohl alle Daten, als auch bestimmte IDs zurückgegeben werden
+![Screenshot](./Images/AUFGABE_3/FetchingDataByID/Screenshot_2.png)
+![Screenshot](./Images/AUFGABE_3/FetchingDataByID/Screenshot_3.png)
 
 ---
 ---
