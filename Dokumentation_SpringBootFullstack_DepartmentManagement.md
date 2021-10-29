@@ -137,17 +137,32 @@
 ---
 ---
 
-### ******
+### ***Testing APIs Using Rest Client***
 
-####
-![Screenshot](./Images/AUFGABE_3//Screenshot_.png)
+#### Man muss anscheinend Insomnia installieren, wie das nun alles genau funktioniert hab ich nicht verstanden weil ich den Typ auch teilweise NULL verstehen kann. zum kotzen
+![Screenshot](./Images/AUFGABE_3/TestingAPIsUsingRestClient/Screenshot_1.png)
+- neue Collection erstellen
+- new Request (POST)
+- im Feld dann die URL eingeben zu den departments von H2
+
+#### Format JSON wählen
+![Screenshot](./Images/AUFGABE_3/TestingAPIsUsingRestClient/Screenshot_2.png)
+
+#### Format JSON wählen
+![Screenshot](./Images/AUFGABE_3/TestingAPIsUsingRestClient/Screenshot_3.png)
+- Die Felder definieren (wie in Klasse Departments beschrieben)
+- Die ID wird automatisch generiert
+- 200 OK bedeutet der Request war erfolgreich
+
+#### auf H2 kann man nun mit run sehen, dass die Daten übernommen wurden
+![Screenshot](./Images/AUFGABE_3/TestingAPIsUsingRestClient/Screenshot_4.png)
 
 ---
 ---
 
 ### ******
 
-####
+#### Da die Daten bis jetzt verloren gehen, muss man GET-API programmieren
 ![Screenshot](./Images/AUFGABE_3//Screenshot_.png)
 
 ---
