@@ -160,11 +160,18 @@
 ---
 ---
 
-### ******
+### ***GetMapping_Fetching Data From DB***
 
-#### Da die Daten bis jetzt verloren gehen, muss man GET-API programmieren
-![Screenshot](./Images/AUFGABE_3//Screenshot_.png)
+#### GetMapping die eine List aller Einträge der Datenbank zurückgibt
+![Screenshot](./Images/AUFGABE_3/GetMapping_FetchingDataFromDB/Screenshot_1.png)
+- Diese Funktion übergibt uns alle Daten der Datenbank die verfügbar sind. 
 
+#### Da die Daten beim beenden der App verloren gegangen sind, wurden 3 neue Einträge wie vorhin mit Insomnia erstellt und gesendet an die H2
+![Screenshot](./Images/AUFGABE_3/GetMapping_FetchingDataFromDB/Screenshot_2.png)
+
+#### Get Request auf Insomnia
+![Screenshot](./Images/AUFGABE_3/GetMapping_FetchingDataFromDB/Screenshot_3.png)
+  
 ---
 ---
 
