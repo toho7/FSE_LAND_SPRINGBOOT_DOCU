@@ -105,6 +105,33 @@
 
 ### Creating Springboot Components
 
-####
+#### Neue Packages, erste Entity Department
+![Screenshot](./Images/AUFGABE_3/CreatingSpringbootComponents/Screenshot_1.png)
+- Damit die Entity Department mit der Database interagieren kann, muss sie mit der @Entity versehen werden.
+- wieder setzen des Primary Key mit entsprechenden Annotations
+
+#### DepartmentController 
 ![Screenshot](./Images/AUFGABE_3/CreatingSpringbootComponents/Screenshot_2.png)
+- Annotation RestController für API
+
+#### Interface und Klasse für Service 
+![Screenshot](./Images/AUFGABE_3/CreatingSpringbootComponents/Screenshot_3.png)
+- Annotation Service enthält auch @Component -> Spring
+
+#### Repository Interface 
+![Screenshot](./Images/AUFGABE_3/CreatingSpringbootComponents/Screenshot_4.png)
+- Annotation Repository für die JPA-Repository
+- erbt von JpaRepository mit allen bereits erstellten Methoden
+
+---
+---
+
+### Department Save API
+
+#### 
+![Screenshot](./Images/AUFGABE_3/DepartmentSaveAPI/Screenshot_.png)
+-  
+
+
+
 
