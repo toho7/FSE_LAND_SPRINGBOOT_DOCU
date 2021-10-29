@@ -187,10 +187,15 @@
 ---
 ---
 
-### ******
+### ***Deleting Data***
 
-####
-![Screenshot](./Images/AUFGABE_3//Screenshot_.png)
+#### Neue Methode mit @DeleteMapping mit der ID
+![Screenshot](./Images/AUFGABE_3/DeletingData/Screenshot_1.png)
+
+#### Testen mit Insomnia
+![Screenshot](./Images/AUFGABE_3/DeletingData/Screenshot_2.png)
+![Screenshot](./Images/AUFGABE_3/DeletingData/Screenshot_3.png)
+![Screenshot](./Images/AUFGABE_3/DeletingData/Screenshot_4.png)
 
 ---
 ---
