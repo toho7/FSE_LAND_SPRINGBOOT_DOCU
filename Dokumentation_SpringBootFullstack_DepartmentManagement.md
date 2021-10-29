@@ -215,11 +215,35 @@
 ---
 ---
 
-### ******
+### ***Fetch Data By Name***
 
-####
-![Screenshot](./Images/AUFGABE_3//Screenshot_.png)
+#### Neue Methode mit GetMapping um ein Department aus der Datenbank über den Namen zu finden
+![Screenshot](./Images/AUFGABE_3/FetchDataByName/Screenshot_1.png)
+- Die Methode muss wieder im DepartmentController, im DepartmentService-Interface und der DepartmentServiceImpl geschrieben werden.
+- Dieses kann aber nicht auf eine vordefinierte Methode zurückgegriffen werden und man muss selbst eine in das DepartmentRepository schreiben
+- Hier reicht es aus den Methodenkopf so zu definieren, dass es heisst: findByDepartmentName. Wichtig hierbei Camelcase und die genau Bezeichnung des Datenfeldes von der Entity
 
+#### Testen mit Insomnia
+![Screenshot](./Images/AUFGABE_3/FetchDataByName/Screenshot_2.png)
+![Screenshot](./Images/AUFGABE_3/FetchDataByName/Screenshot_3.png)
+- wie man sieht, wird der Datensatz über den Department Name gefunden. 
+- Allderdings ist hier die Groß- und Kleinschreibung wichtig. 
+
+#### Noch eine Methode im DepartmentRepository
+![Screenshot](./Images/AUFGABE_3/FetchDataByName/Screenshot_4.png)
+- Wie vorhin ist die Schreibweise hier wieder zu beachten
+- Weiters muss diese Methode nun auch von ControllerServiceImpl aufgerufen werden.
+
+#### Weiterer Test im Insomnia
+![Screenshot](./Images/AUFGABE_3/FetchDataByName/Screenshot_5.png)
+- die suche funktioniert jetz auch so
+
+#### so wie vorhin kann man die verschiedenen Möglichkeiten von JPA implementieren
+![Screenshot](./Images/AUFGABE_3/FetchDataByName/Screenshot_6.png)
+- Auf dieser Seite sieht man wie mit den unterschiedlichen Methodennamen verschiedenes implementiert werden kann > 
+[Spring Data JPA - Reference Doc](https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#jpa.query-methods.query-creation)
+
+#### **wie das nun genau funktioniert konnte ich leider wieder nicht verstehen weil ich wieder fast nichts verstanden habe von dem Inder**
 ---
 ---
 
