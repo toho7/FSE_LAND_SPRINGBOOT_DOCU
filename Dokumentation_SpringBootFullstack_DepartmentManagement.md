@@ -272,6 +272,103 @@
 ---
 ---
 
+### ***Adding Loggers***
+- Von der Einleitung hab ich mal kein Wort verstanden
+
+#### Wenn ich ihn danach richtig verstanden habe, ist dies hilfreich zum Debuggen
+![Screenshot](./Images/AUFGABE_3/AddingLoggers/Screenshot_1.png)
+
+---
+---
+
+### ******
+
+####
+![Screenshot](./Images/AUFGABE_3//Screenshot_.png)
+
+---
+---
+
+### ******
+
+####
+![Screenshot](./Images/AUFGABE_3//Screenshot_.png)
+
+---
+---
+
+### ******
+
+####
+![Screenshot](./Images/AUFGABE_3//Screenshot_.png)
+
+---
+---
+
+### ******
+
+####
+![Screenshot](./Images/AUFGABE_3//Screenshot_.png)
+
+---
+---
+
+### ******
+
+####
+![Screenshot](./Images/AUFGABE_3//Screenshot_.png)
+
+---
+---
+
+### ******
+
+####
+![Screenshot](./Images/AUFGABE_3//Screenshot_.png)
+
+---
+---
+
+### ******
+
+####
+![Screenshot](./Images/AUFGABE_3//Screenshot_.png)
+
+---
+---
+
+### ******
+
+####
+![Screenshot](./Images/AUFGABE_3//Screenshot_.png)
+
+---
+---
+
+### ******
+
+####
+![Screenshot](./Images/AUFGABE_3//Screenshot_.png)
+
+---
+---
+
+### ******
+
+####
+![Screenshot](./Images/AUFGABE_3//Screenshot_.png)
+
+---
+---
+
+### ******
+
+####
+![Screenshot](./Images/AUFGABE_3//Screenshot_.png)
+
+---
+---
+
 ### ******
 
 ####
