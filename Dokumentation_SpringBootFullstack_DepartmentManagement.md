@@ -247,10 +247,27 @@
 ---
 ---
 
-### ******
+### ***Hibernate Validation***
+- um über die Lebenszeit hinaus auf die Daten zugreifen zu können
 
-####
-![Screenshot](./Images/AUFGABE_3//Screenshot_.png)
+#### Hinzufügen der Abhängigkeit in der pom.xml
+![Screenshot](./Images/AUFGABE_3/HibernateValidation/Screenshot_1.png)
+- spring-boot-starter-validation beinhaltet hibernate-validation
+
+#### Validieren der Datenfelder
+![Screenshot](./Images/AUFGABE_3/HibernateValidation/Screenshot_2.png)
+- um sicher zu stellen, dass der Name des Departments nicht leer ist, verwendet man die Annotation NotBlank. 
+- Um die Datenfelder im PostMapping auf ihre Validation prüfen zu können, muss auch hier die Annotaion dafür gesetzt werden
+
+#### Test im Insomnia
+![Screenshot](./Images/AUFGABE_3/HibernateValidation/Screenshot_3.png)
+- Wie man sieht, gibt es hier einen Fehler 
+
+#### Weitere Validations-Annotaions
+![Screenshot](./Images/AUFGABE_3/HibernateValidation/Screenshot_4.png)
+- es gibt verschiedene Annotations zum Validieren der Datenfelder
+
+#### **Wahrscheinlich hab ich ihn bezüglich des Speicherns falsch verstanden und es gut nur um die Validation.**
 
 ---
 ---
