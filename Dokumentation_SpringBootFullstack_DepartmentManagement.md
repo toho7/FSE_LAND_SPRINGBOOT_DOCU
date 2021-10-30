@@ -309,11 +309,30 @@
 ---
 ---
 
-### ******
+### ***Exception Handling***
+- Damit die Fehlermeldungen übersichtlicher werden
 
-####
-![Screenshot](./Images/AUFGABE_3//Screenshot_.png)
+#### Anpassung bei FetchDepartmentById
+- bis jetzt wurde auf Insomnia immer ein Reihe von Parameter bei der Fehermeldung angezeigt, wenn nach einem Department gesucht wurde das nicht existiert. Durch das Exceptionhandling wird das jetzt angepasst
+![Screenshot](./Images/AUFGABE_3/ExceptionHandling/Screenshot_1.png)
+- Ein neues package errors wurde erstellt mit einer neuen Klasse DepartmentNotFoundException. In dieser Klasse wurde dann einfach alle möglichen Konstruktoren generiert.
+- in der DepartmentServiceImpl-Klasse wurde die Methode für fetchDepartmentById umgeändert. Anstatt gleich das Department über das Repo zurückzugeben, wird aus dem Repo zuerst ein Optional-Objekt vom Typ Department übergeben. 
+- Dieses Objekt wird nun auf seinen Zustand überprüft. ist er nicht vorhanden, wird die Exception geschmissen
+- Diese Exception muss nun auch bei der GetMapping Methode für fetchDepartmentById im DepartmentController geschmissen werden. 
+![Screenshot](./Images/AUFGABE_3/ExceptionHandling/Screenshot_2.png)
+- Wie man sieht wird zwar die Message nun ausgegeben, die anderen Parameter aber auch. 
 
+#### Das Handeln aller Exceptions
+![Screenshot](./Images/AUFGABE_3/ExceptionHandling/Screenshot_3.png)
+- Neue Klasse RestResponseEntitiyExceptionHandler welche erbt von ResponseEntityExceptionHandler
+- @ControllerAdvice gibt Zugriff auf alle Controller. Es können aber auch mit anderen Annotationen auf bestimmte Controller zugegriffen werden.
+- @ResponseStatus um den Status aufzufangen
+- @ExceptionHandler kümmert sich um bestimmte Exception
+- Die Methode departmentNotFoundException gibt eine ResponseEntity zurück mit dem Status NotFound und der Message dazu
+- Durch Lombok spart sich bei der neuen Klasse ErrorMessage alle Getter und Setter und eben auch die Konstruktoren, weshalb auch hier auf den speziellen Konstruktor zugegriffen werden kann.
+
+#### Testen
+![Screenshot](./Images/AUFGABE_3/ExceptionHandling/Screenshot_4.png)
 ---
 ---
 
