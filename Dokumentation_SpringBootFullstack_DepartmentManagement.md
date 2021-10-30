@@ -281,11 +281,31 @@
 ---
 ---
 
-### ******
+### ***Project Lombok (Removing Boiler plate code)***
 
-####
-![Screenshot](./Images/AUFGABE_3//Screenshot_.png)
+#### Was ist Lombok
+-  lässt sich die Menge des Quellcodes durch den Einsatz von Lombok erheblich reduzieren und er wird durch das Weglassen des Boilerplate-Code erheblich lesbarer.
+-  Getter, Setter usw können damit wegfallen
 
+#### Implementierung
+![Screenshot](./Images/AUFGABE_3/ProjectLombok/Screenshot_1.png)
+- auf start.spring.io das Dependency suchen 
+![Screenshot](./Images/AUFGABE_3/ProjectLombok/Screenshot_2.png)
+- mit Explore den Code suchen und kopieren. Weiters muss auch das plugin kopiert werden.
+![Screenshot](./Images/AUFGABE_3/ProjectLombok/Screenshot_3.png)
+- Einfügen in der pom.xml
+![Screenshot](./Images/AUFGABE_3/ProjectLombok/Screenshot_4.png)
+- Das Plugin wurde bereits in Intellij installiert.
+![Screenshot](./Images/AUFGABE_3/ProjectLombok/Screenshot_5.png)
+- Entfernen von Constructor, Getter, Setter, toString
+![Screenshot](./Images/AUFGABE_3/ProjectLombok/Screenshot_6.png)
+- Mit Lombok kann man nun verschiedene Annoationen dazu laden
+- Data implementiert alles; Getter nur Getter usw.
+- NoArgsConstructor einen Konstruktor ohne Argmumente usw.
+
+#### Testen
+![Screenshot](./Images/AUFGABE_3/ProjectLombok/Screenshot_7.png)
+- und es läuft alles wie gewohnt
 ---
 ---
 
