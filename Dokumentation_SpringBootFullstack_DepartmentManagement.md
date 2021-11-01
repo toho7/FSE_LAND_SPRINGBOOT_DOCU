@@ -333,13 +333,25 @@
 
 #### Testen
 ![Screenshot](./Images/AUFGABE_3/ExceptionHandling/Screenshot_4.png)
+
 ---
 ---
 
-### ******
+### ***Changing H2 to MySQL***
 
-####
-![Screenshot](./Images/AUFGABE_3//Screenshot_.png)
+#### Installieren von MySQL
+- Hab dies wieder wie im ersten Video mit XAMPP gemacht
+
+#### Hinzufügen Dependency in pom.xml und ändern der application.properties für MySQL
+![Screenshot](./Images/AUFGABE_3/ChangingH2toMySQL/Screenshot_1.png)
+
+#### Erstellen des Schemas dcbapp in phpMyAdmin
+![Screenshot](./Images/AUFGABE_3/ChangingH2toMySQL/Screenshot_2.png)
+- Nach dem die App auf Intellij neu gestartet wurde, wurden autmatisch die Tabellen in MyAdmin erstellt
+
+#### Hinzufügen von Datensätzen mit Insomnia
+![Screenshot](./Images/AUFGABE_3/ChangingH2toMySQL/Screenshot_3.png)
+- nach dem Hinzufügen eines Datensatzen wurde es auch in phpMyAdmin aktuallisiert. 
 
 ---
 ---
