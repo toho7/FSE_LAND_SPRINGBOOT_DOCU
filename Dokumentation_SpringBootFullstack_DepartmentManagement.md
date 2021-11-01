@@ -479,10 +479,11 @@
 #### Hat bei mir nicht funktioniert, keine Ahnung warum. Hat er nicht erklärt, hab ihn nicht verstanden, hab auch nichts gefunden. 
 ![Screenshot](./Images/AUFGABE_3/RunningSpringBootWithMultipleProfiles/Screenshot_1.png)
 
+**Hab die letzten Minuten dann nur angeschaut**
 ---
 ---
 
-### ******
+### ***SpringBootActuator***
 
 ####
 ![Screenshot](./Images/AUFGABE_3//Screenshot_.png)
@@ -490,7 +491,7 @@
 ---
 ---
 
-### ******
+### ***Custom Actuator Endpoints***
 
 ####
 ![Screenshot](./Images/AUFGABE_3//Screenshot_.png)
@@ -498,7 +499,7 @@
 ---
 ---
 
-### ******
+### ***Exclude Actuator Endpoints***
 
 ####
 ![Screenshot](./Images/AUFGABE_3//Screenshot_.png)
