@@ -455,10 +455,21 @@
 ---
 ---
 
-### ******
+### ***SpringBoot Profiles***
 
-####
-![Screenshot](./Images/AUFGABE_3//Screenshot_.png)
+#### Verschiedene Profile sind nützlich, zB für verschiedene Datenbanken
+![Screenshot](./Images/AUFGABE_3/SpringBootProfiles/Screenshot_1.png)
+![Screenshot](./Images/AUFGABE_3/SpringBootProfiles/Screenshot_2.png)
+- Aber wieder furchtbar zum verstehen was er da redet
+- mit --- kann mehrere Dokumente erstellen im Yml File wenn ich ihn richtig verstanden habe
+- Man hat nun 3 Profile, mit 3 verschiedenen Datenbanken
+- Aktiviert ist "qa", welche noch nicht existiert, darum schlägt das starten der App fehl
+
+#### Testen Datenbank qa
+![Screenshot](./Images/AUFGABE_3/SpringBootProfiles/Screenshot_3.png)
+![Screenshot](./Images/AUFGABE_3/SpringBootProfiles/Screenshot_4.png)
+- wird nun die Datenbank hinzugefügt, kann die App gestartet werden. 
+- Nach dem Start sind auch schon die Tabellen in der neuen Datenbank vorhanden 
 
 ---
 ---
