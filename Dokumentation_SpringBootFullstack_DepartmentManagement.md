@@ -432,10 +432,11 @@
 ---
 ---
 
-### ******
+### ***Adding Config In Properties File***
 
-####
-![Screenshot](./Images/AUFGABE_3//Screenshot_.png)
+#### Beispiel
+![Screenshot](./Images/AUFGABE_3/AddingConfigInPropertiesFile/Screenshot_1.png)
+- In diesem Beispiel sieht man, dass man über das properties-File auf bestimmte Werte zugreifen kann
 
 ---
 ---
