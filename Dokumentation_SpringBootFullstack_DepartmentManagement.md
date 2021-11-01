@@ -414,10 +414,20 @@
 ---
 ---
 
-### ******
+### ***Unit Testing Controller Layer***
 
-####
-![Screenshot](./Images/AUFGABE_3//Screenshot_.png)
+#### Dieses mal wählt man zum testen bestimmte Methoden aus 
+![Screenshot](./Images/AUFGABE_3/UnitTestingControllerLayer/Screenshot_1.png)
+- Keine Ahnung was er da gredet hat dazu, keine chance zu verstehen
+
+#### Implementierung ControllerTest 
+![Screenshot](./Images/AUFGABE_3/UnitTestingControllerLayer/Screenshot_2.png)
+- Irgendwas mit WebMvcTest, aber warum .. keine Chance ihn zu verstehen
+- Unterm Strich sind die Daten wieder Mock und nichts wird in die Datenbank gespeichert. Test war auch ok. Aber leider nichts von dem Typ verstanden
+
+#### Und die andere Methode...
+![Screenshot](./Images/AUFGABE_3/UnitTestingControllerLayer/Screenshot_3.png)
+- .. und wieder wenig verstanden
 
 ---
 ---
