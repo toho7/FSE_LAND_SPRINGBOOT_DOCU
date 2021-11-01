@@ -361,16 +361,40 @@
 #### Dependency
 ![Screenshot](./Images/AUFGABE_3/UnitTesting/Screenshot_1.png)
 - Testen aller Layer. Service-, Repository- und Controllerlayer
-- Diese kann man auch einzeln testen und dazu markieren. 
+- Diese kann man auch einzeln testen und dazu "mocken". 
 - Also wenn man nur den Controllerlayer testen möchte, kann man dies einstellen
 
 ---
 ---
 
-### ******
+### ***Unit Testing Service Layer***
 
-####
-![Screenshot](./Images/AUFGABE_3//Screenshot_.png)
+#### Wo findet das testen statt?
+![Screenshot](./Images/AUFGABE_3/UnitTestingServiceLayer/Screenshot_1.png)
+- es schon beim erzeugen der Application ein test-package erzeugt mit der SpringBootTutorialApplicationTests-Klasse. 
+
+#### Um einen ServiceLayer zu testen, kann in Intellij wie folgt implementiert werden
+![Screenshot](./Images/AUFGABE_3/UnitTestingServiceLayer/Screenshot_2.png)
+![Screenshot](./Images/AUFGABE_3/UnitTestingServiceLayer/Screenshot_3.png)
+- Die Methoden können hier generiert werden oder selbst geschrieben werden. 
+
+#### Testen der Methode fetchDepartmentByName
+![Screenshot](./Images/AUFGABE_3/UnitTestingServiceLayer/Screenshot_4.png)
+- Das package und die TestKlasse für den Service Layer wurden automatisch erstellt
+- Die Methode setup() mit @BeforeEach wurde automatisch generiert. BeforEach führt dies für alle TestMethoden aus. Kann auch anders gemacht werden, zB BeforeAll
+- Die neue Methode whenValidDepartmentName_ThenDepartmentShouldFound ist zwar lang, aber es ist ok. Sie soll genau aussagen was sie tut bzw was sie testet. 
+- um den ServiceLayer zu testen muss ein Objekt in den Datenfeldern erzeugt werden und mit Autowired verknüpft werden
+- Die Methode whenValidDepartmentName_ThenDepartmentShouldFound wird noch mit der Annotation Test versehen um zugriff auf diese zu haben
+![Screenshot](./Images/AUFGABE_3/UnitTestingServiceLayer/Screenshot_5.png)
+- da man ja nur den Service Layer testet möchte, aber auf das Repository zugreift, muss dieses "Gemockt" werden. Durch Mockito(mocken), können Objekte (Klassen oder Methoden) isoliert von ihrer Umgebung getestet werden. 
+- Dazu wird ein Repository in den Datenfeldern erstellt. Durch die Annotation MockBean wird nun das Repo durch ein Mock-Objekt ersetzt und fungiert dabei nun als Platzhalter für ein echtes Repo-Objekt.  
+- in der Methode setup wird nun ein TestObjekt vom Typ Department erstellt. Dies kann nun einfach hier ohne getter und setter gemacht werden aufgrund von Lombok und der Annotation Builder. 
+- Durch den Platzhalter mit Mockito kann nun das isolierte Objekt verwendet werden. 
+
+#### Testen
+![Screenshot](./Images/AUFGABE_3/UnitTestingServiceLayer/Screenshot_6.png)
+- durch die Annotation kann im Terminal statt der Methode auch eine andere Status Meldung angezeigt werden. 
+- wie man sieht war der Test erfolgreich
 
 ---
 ---
