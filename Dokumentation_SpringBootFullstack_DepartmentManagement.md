@@ -441,10 +441,16 @@
 ---
 ---
 
-### ******
+### ****Adding application.yml***
 
-####
-![Screenshot](./Images/AUFGABE_3//Screenshot_.png)
+#### Warum ein Yaml-File?
+- lesbarer für menschen
+- redundate Teile können entfernt werden
+![Screenshot](./Images/AUFGABE_3/Addingapplication.yml/Screenshot_1.png)
+- Das Yaml-File ist im selben Verzeichnis wie das properties File
+- Mit einem Online-Converter kann man die properties in yml übersetzen lassen und copy paste
+- wie man sieht, ist das Yaml-File schlanker und leichter lesbarer. 
+- das Configuration File ist zur Gänze auskommentiert, beim starten der App wird dann automatisch auch auf das Yml file zurückgegriffen und es geht alles wie vorhin. 
 
 ---
 ---
