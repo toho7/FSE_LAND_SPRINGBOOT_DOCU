@@ -399,10 +399,17 @@
 ---
 ---
 
-### ******
+### ***Unit Testing Repository Layer***
 
-####
-![Screenshot](./Images/AUFGABE_3//Screenshot_.png)
+#### Um das package samt Klasse zu erzeugen geht man wie vorhin vor
+![Screenshot](./Images/AUFGABE_3/UnitTestingRepositoryLayer/Screenshot_1.png)
+
+#### Warum man diese Annoationen hier mit Entity Manager hab ich dem schlechten Englisch nicht verstanden
+![Screenshot](./Images/AUFGABE_3/UnitTestingRepositoryLayer/Screenshot_2.png)
+
+#### Implementierung
+![Screenshot](./Images/AUFGABE_3/UnitTestingRepositoryLayer/Screenshot_3.png)
+- Wenn ich es richtig verstanden habe, wird zum Testen ein Datensatz erzeugt der nicht in die Datenbank aufgenommen wird.
 
 ---
 ---
