@@ -56,9 +56,16 @@
 
 ### ***Different JPA Annotations***
 
-####
+#### Modifizieren von Student
 
-![Screenshot](./images/AUFGABE_4/Screenshot_.png)
+![Screenshot](./images/AUFGABE_4/Screenshot_6.png)
+
+- @Table und @Column geben der Tabelle und der Spalte einen Namen
+- @SequenceGenerator zählt die Einträge in der Tabelle sequenziell wie man es möchte
+- @GeneratedValue gibt an, wie der Wert generiert werden soll (als sequenz), und was der Generator ist (student_sequenz)
+- @Table gibt über uniqueConstraints die email-Adresse als einzigartig. Die email darf nicht leer sein sonst gibt es eine Exception
+- Beim erneuten Starten der App wird eine neue Tabelle erzeugt mit gewünschtem namen, die Spalte email heisst jetzt anders, eine Sequenz wurde erzeugt, email ist unique
+- Löscht man nun nochmal alle Tabellen der DB, wird beim erneuten starten der App die Tabelle mit allen Einstellungen neu erstellt
 
 ---
 ---
