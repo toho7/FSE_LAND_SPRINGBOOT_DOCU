@@ -129,18 +129,18 @@
 
 ### ***Native Queries***
 
-####
+![Screenshot](./images/AUFGABE_4/Screenshot_12.png)
 
-![Screenshot](./images/AUFGABE_4/Screenshot_.png)
+- dasselbe kann auch mit Native Querys angewendet werden, zB dann auch für komplexere Abfragen
 
 ---
 ---
 
 ### ***Query Named Params***
 
-####
+![Screenshot](./images/AUFGABE_4/Screenshot_13.png)
 
-![Screenshot](./images/AUFGABE_4/Screenshot_.png)
+- dasselbe Ergebnis auch mit Parameter
 
 ---
 ---
