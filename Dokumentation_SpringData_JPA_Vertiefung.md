@@ -106,9 +106,14 @@
 
 ### **Creating JPA Repositories & methods***
 
-####
+#### Student Repo Methoden hinzufügen
 
-![Screenshot](./images/AUFGABE_4/Screenshot_.png)
+![Screenshot](./images/AUFGABE_4/Screenshot_10.png)
+
+- unter Beachtung von CamelCase können nun Methoden zum iterieren der Daten in der Tabelle erstellt werden. Es werden auch schon automatisch Methdoen zum implementieren vorgeschlagen.
+
+- JPA übernimmt hier das iterieren
+- weitere Methoden wurden hier ausprobiert
 
 ---
 ---
