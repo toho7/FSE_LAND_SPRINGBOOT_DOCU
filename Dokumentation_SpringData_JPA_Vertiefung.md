@@ -91,9 +91,15 @@
 
 ### ***@Embeddable and @Embedded***
 
-####
+#### Guardian in eigener Klasse
 
-![Screenshot](./images/AUFGABE_4/Screenshot_.png)
+![Screenshot](./images/AUFGABE_4/Screenshot_9.png)
+
+- Guardian wird in eine eigene Klasse ausgelagert
+- @Embeddable macht die Klasse Guardian einbettbar
+- @AttributeOverrides können die Attribute der Klasse für die Spalten überschrieben werden
+- @Embedded bettet das Objekt in die Klasse Student ein
+- saveStudentWithGuardian() speichert nun den Guardian über ein Objekt-builder in das build von Student und schreibt es in die Datenbank
 
 ---
 ---
