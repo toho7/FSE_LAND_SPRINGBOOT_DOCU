@@ -120,9 +120,9 @@
 
 ### ***@Query Annotation***
 
-####
+![Screenshot](./images/AUFGABE_4/Screenshot_11.png)
 
-![Screenshot](./images/AUFGABE_4/Screenshot_.png)
+- JPQL steht für Java Persistence Query Language. Es wird verwendet, um Abfragen gegen Entitäten zu schaffen, um in einer relationalen Datenbank zu speichern. JPQL wird basierend auf SQL-Syntax entwickelt.
 
 ---
 ---
