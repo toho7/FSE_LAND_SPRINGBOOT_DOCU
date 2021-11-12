@@ -72,9 +72,19 @@
 
 ### ***Understanding Repositories and their methods***
 
-####
+#### Interace StudentRepository
 
-![Screenshot](./images/AUFGABE_4/Screenshot_.png)
+![Screenshot](./images/AUFGABE_4/Screenshot_7.png)
+
+- das Interface erbt von JPARepository.
+- dieses Interface gibt uns die Möglichkeit, über die Einträge in der Datenbank zu iterieren
+
+#### TestRepository Student
+
+![Screenshot](./images/AUFGABE_4/Screenshot_8.png)
+
+- zum testen der Application
+- Ein Beispiel für die Datenbank wurde erstellt, und über das Autowired mit dem Repo verknüpft -> die Daten wurden in Datenbank gespeichert
 
 ---
 ---
