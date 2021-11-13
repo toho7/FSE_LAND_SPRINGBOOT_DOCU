@@ -246,9 +246,18 @@
 
 ### ***JPA Many-To-One Relationship***
 
-####
+#### Implementierung ManyToOne
 
-![Screenshot](./images/AUFGABE_4/Screenshot_.png)
+![Screenshot](./images/AUFGABE_4/Screenshot_25.png)
+
+- Die ManytoOne Beziehung in Teacher für die Liste an Courses wurde auskommentiert
+- Dadurch musste auch im TeacherRepoTest die Verbindung zu den courses auskommentiert werden
+- In der Entity Course wurde eine neue ManyToOne Beziehung mit Teacher hergestellt
+- Im CourseRepoTest wurde ein neuer Test durchgeführt um einen Course mit einem Teacher zu speichern
+
+#### Testen ManyToOne
+
+![Screenshot](./images/AUFGABE_4/Screenshot_26.png)
 
 ---
 ---
