@@ -236,6 +236,11 @@
 
 - Hier mussten einige Dinge angepasst werden um die Beziehungen zueinander zu verwirklichlen.
 
+#### Testen
+
+![Screenshot](./images/AUFGABE_4/Screenshot_23.png)
+![Screenshot](./images/AUFGABE_4/Screenshot_24.png)
+
 ---
 ---
 
