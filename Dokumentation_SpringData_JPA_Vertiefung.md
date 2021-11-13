@@ -264,9 +264,14 @@
 
 ### ***Paging and Sorting***
 
-####
+#### Erklärung
 
-![Screenshot](./images/AUFGABE_4/Screenshot_.png)
+- wie man im Interface von JpaRepository sieht, erbt dieses von PagingAndSortingRepository
+- hier findet man 2 Methoden mit findAll, einmal mit Sort und einmal mit Pageable
+
+#### Implementierung
+
+![Screenshot](./images/AUFGABE_4/Screenshot_27.png)
 
 ---
 ---
