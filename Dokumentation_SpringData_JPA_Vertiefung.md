@@ -215,9 +215,9 @@
 
 ### ***Uni & Bi directional relationship***
 
-####
+![Screenshot](./images/AUFGABE_4/Screenshot_20.png)
 
-![Screenshot](./images/AUFGABE_4/Screenshot_.png)
+- In der Entity Course wird einem Objekt von CourseMaterial durch @OneToOne(mappedBy = "course") gesagt, dass es bereits gemappt ist mit Course. Dadruch erfolgt bei der Ausgabe von printCourses() in der TestRepo von Courses auch die Ausgabe von CourseMaterial
 
 ---
 ---
