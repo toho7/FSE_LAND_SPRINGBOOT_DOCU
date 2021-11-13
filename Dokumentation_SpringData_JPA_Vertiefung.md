@@ -224,9 +224,17 @@
 
 ### ***JPA One-To-Many Relationship***
 
-####
+#### UML-Teacher-Courses
 
-![Screenshot](./images/AUFGABE_4/Screenshot_.png)
+![Screenshot](./images/AUFGABE_4/Screenshot_21.png)
+
+- OneToMany von Teacher zu Course
+
+#### Implementierung
+
+![Screenshot](./images/AUFGABE_4/Screenshot_22.png)
+
+- Hier mussten einige Dinge angepasst werden um die Beziehungen zueinander zu verwirklichlen.
 
 ---
 ---
