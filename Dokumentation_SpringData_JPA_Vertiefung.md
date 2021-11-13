@@ -191,6 +191,8 @@
 
 [JPA-Cascading Types](https://www.baeldung.com/jpa-cascade-types)
 
+---
+
 #### Einbau Cascading in CourseMaterial One-To-One Annotation
 
 ![Screenshot](./images/AUFGABE_4/Screenshot_18.png)
@@ -203,9 +205,10 @@
 
 ### ***Fetch Types***
 
-####
+![Screenshot](./images/AUFGABE_4/Screenshot_19.png)
 
-![Screenshot](./images/AUFGABE_4/Screenshot_.png)
+- OnetoOne wird noch ein Fetch-Typ hinzugefügt
+- da es auch mit Course verknüpft ist schlägt es fehl, wenn nicht über eine ToString Annotation der Course herausgenommen wird
 
 ---
 ---
