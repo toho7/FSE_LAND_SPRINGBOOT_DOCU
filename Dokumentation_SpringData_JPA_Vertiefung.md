@@ -187,9 +187,16 @@
 
 ### ***Cascade Types***
 
-####
+#### Link zur Beschreibung von Cascading Types
 
-![Screenshot](./images/AUFGABE_4/Screenshot_.png)
+[JPA-Cascading Types](https://www.baeldung.com/jpa-cascade-types)
+
+#### Einbau Cascading in CourseMaterial One-To-One Annotation
+
+![Screenshot](./images/AUFGABE_4/Screenshot_18.png)
+
+- in der One-To-One Annotation wurde Cascading eingebaut
+- Nun Funktioniert auch der Test
 
 ---
 ---
