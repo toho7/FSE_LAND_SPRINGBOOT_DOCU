@@ -156,9 +156,31 @@
 
 ### ***JPA One-To-One Relationship***
 
-####
+#### One-To-One mit Course und CourseMaterial
 
-![Screenshot](./images/AUFGABE_4/Screenshot_.png)
+![Screenshot](./images/AUFGABE_4/Screenshot_15.png)
+
+- Erstellung der Entitäten und der Beziehung zueinander
+
+![Screenshot](./images/AUFGABE_4/Screenshot_16.png)
+
+- Beiden Klassenentitäten wurden erstellt
+- Jede bekommt wieder Getter, Setter, Konstruktoren, usw..
+- Jede hat einen Primary Key mit SequenceGenerator
+- CourseMaterial bekommt die Beziehung zu Course
+  - One-To-One
+  - JoinColumn für Course, und was der Fremdschlüssel sein soll
+- Anschließend wird beim Starten der App die Datenbank dementsprechend aktualisiert
+
+#### Repository für Course und CourseMaterial
+
+![Screenshot](./images/AUFGABE_4/Screenshot_17.png)
+
+- Die Repos für die Course und CourseMaterial wurden erstellt
+- Eine Neue TestKlasse für CourseMaterial wurde generiert. 
+- Eine Methode zum Speichern eines CourseMaterial-Eintrages wurde geschrieben in Verbindung mit einem Course
+- Möchte man diese Methode testen schlägt sie fehlt, weil CourseMaterial nur in Verbindung mit einem Course gespeichert werden. Da es noch keinen Course-Eintrag gibt, schlägt dieser Test fehlt
+- Cascading soll da im nächsten Abschnitt abhilfe schaffen
 
 ---
 ---
