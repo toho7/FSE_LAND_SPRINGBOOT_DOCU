@@ -278,9 +278,14 @@
 
 ### ***JPA Many-To-Many Relationship***
 
-####
+#### UML ManytoMany
 
-![Screenshot](./images/AUFGABE_4/Screenshot_.png)
+![Screenshot](./images/AUFGABE_4/Screenshot_28.png)
+
+#### Implementierung ManytoMany
+
+![Screenshot](./images/AUFGABE_4/Screenshot_29.png)
+![Screenshot](./images/AUFGABE_4/Screenshot_30.png)
 
 ---
 ---
